@@ -67,6 +67,10 @@ if (isset($_POST['arr'])) {
                         <h1 class=" text-center">Kết quả sắp xếp</h1>
                     </div>
                     <div class="mb-3">
+                        <label for="array" class="form-label">Dãy số ban đầu:</label>
+                        <input type="text" class="form-control" value="<?php if (isset($input)) echo $input ?>">
+                    </div>
+                    <div class="mb-3">
                         <label for="array" class="form-label">Giải thuật đã chọn:</label>
                         <input type="text" class="form-control" value="<?php if (isset($radio)) echo $radio ?>">
                     </div>
